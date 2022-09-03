@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>nota do aluno</h1>
+    <script>
+        let trabalho1 =parseInt(prompt("insira a nota do primeiro trabalho aqui"));
+        let trabalho2 =parseInt(prompt("insira a nota do segundo trabalho aqui"));
+        let caderno =parseInt(prompt("insira a nota do caderno aqui"));
+        let prova =parseInt(prompt("insira a nota da prova aqui"));
+
+        let soma = (trabalho1 + trabalho2 + caderno + prova);
+        let resultado = (soma / 4);
+
+        document.write("sua nota do; bimestre é: " + resultado )
+
+        if(resultado >=6){
+            document.write("<br>" + "Você foi aprovado!!")
+        }else if(resultado >=5){
+            document.write("<br>" + "Você ficou de recuperação.")
+        }else{
+            document.write("<br>" + "REPROVADO!!")
+        }
+    </script>
+</body>
+</html>
