@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Valor aritmetico de 10 números</h1>
+    <script>
+        let numero1 =parseInt(prompt("Escreva o Número"));
+        let numero2 =parseInt(prompt("Escreva o Número"));
+        let numero3 =parseInt(prompt("Escreva o Número"));
+        let numero4 =parseInt(prompt("Escreva o Número"));
+        let numero5 =parseInt(prompt("Escreva o Número"));
+        let numero6 =parseInt(prompt("Escreva o Número"));
+        let numero7 =parseInt(prompt("Escreva o Número"));
+        let numero8 =parseInt(prompt("Escreva o Número"));
+        let numero9 =parseInt(prompt("Escreva o Número"));
+        let numero10 =parseInt(prompt("Escreva o Número"));
+
+        let soma = (numero1 + numero2 + numero3 + numero4 + numero5 + numero6 + numero7 + numero8 + numero9 + numero10);
+        let resultado = (soma / 4);
+
+        document.write("O resultado aritmetico é " +resultado)
+    </script>
+</body>
+</html>
