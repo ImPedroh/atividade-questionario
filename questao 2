@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Número positivo e negativo</h1>
+    <script>
+        let numero =parseInt(prompt("Digite o número"))
+
+        document.write("seu numero é " +numero)
+
+        if(numero >=1){
+            document.write("<br>" + "Seu número é positivo")
+        }
+        if(numero <=-1){
+            document.write("<br>" + "Seu número é negativo")
+        }
+        if(numero = 0){
+            document.write("<br>" + "Seu número é zero")
+        }
+        
+    </script>
+</body>
+</html>
